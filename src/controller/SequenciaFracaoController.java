@@ -9,8 +9,8 @@ public class SequenciaFracaoController {
 		if (n == 0) {return 0;}
 		//Usando a mesma lógica da funcão Fatorial, porém se usa 0 para somar e não alterar o resultado.
 		else {
-			return (float) 1/funcaoFatorial(n) + sequenciaFracao(n-1);
-			//Converter para float pois o programa estava automaticamente usando inteiros.
+			return (double) 1/funcaoFatorial(n) + sequenciaFracao(n-1);
+			//Converter para double pois o programa estava automaticamente usando inteiros.
 			//Basicamente descrevi a sequência apresentada, inserindo a função fatorial no denominador.
 		}
 		
